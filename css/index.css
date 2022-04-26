@@ -1,0 +1,91 @@
+html,body,ul{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+}
+.title{
+    font-size: 40px;
+    font-weight: 500;
+}
+.title-date{
+    padding: 10px 0;
+    font-weight: 600;
+}
+.top{
+    display: flex;
+
+}
+.top-title{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+/* 2 */
+.list{
+    list-style: none;
+    display: flex;
+}
+.list-item{
+    flex: 1;
+    align-self: end;
+}
+/* .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+} */
+/* swiper */
+.swiper{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    list-style: none;
+}
+.swiper-item{
+    padding: 40px 40px 40px 0;
+}
+/* intime */
+.intime{
+    display: flex;
+    padding-top: 120px;
+}
+.intime-image{
+    position: relative;
+}
+.intime-text{
+    font-size: 26px;
+    font-weight: 600;
+}
+.intime-title{
+    position: absolute;
+    top: -120px;
+    left: 0;
+    font-size: 60px;
+    font-weight: 500;
+}
+.intime-left{
+    margin-right: 20px;
+}
+/* perfect */
+.perfect{
+    display: flex;
+    padding: 50px 0;
+}
+.perfect h2 {
+    width: 900px;
+    margin-right: 80px;
+}
+/* bottom */
+.bottom{
+    position: relative;
+}
+.bottom-title{
+    position: absolute;
+    left: 114px;
+    top: 430px;
+    background-color: #ccc;
+    width: 400px;
+    padding: 20px;
+}
