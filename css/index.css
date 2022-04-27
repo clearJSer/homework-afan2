@@ -34,7 +34,7 @@ body{
     width: 300px;
 }
 .reverse{
-    padding-right:20px;
+    padding:0 25px;
 }
 /* swiper */
 .swiper{
